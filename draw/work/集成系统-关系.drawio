@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T08:24:00.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="4YFHOLohaADEHdkhXCV-" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T08:24:30.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="GYCy8ZAQH5NlCst8Brhc" version="14.8.5" type="github">
   <diagram id="GWc9btC38aQ4yNk1Iczu" name="第 1 页">
     <mxGraphModel dx="946" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -46,17 +46,14 @@
         <mxCell id="KJGrvaJSuJrRB0GsBnO1-13" value="Grpc API" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="KJGrvaJSuJrRB0GsBnO1-4">
           <mxGeometry y="167" width="227" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="KJGrvaJSuJrRB0GsBnO1-12" value="DB" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="KJGrvaJSuJrRB0GsBnO1-4">
-          <mxGeometry x="227" y="99" width="94" height="68" as="geometry" />
+        <mxCell id="KJGrvaJSuJrRB0GsBnO1-12" value="Store" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="KJGrvaJSuJrRB0GsBnO1-4">
+          <mxGeometry x="227" y="99" width="94" height="136" as="geometry" />
         </mxCell>
         <mxCell id="KJGrvaJSuJrRB0GsBnO1-14" value="rat&lt;br&gt;（充电宝lighting flow）" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="210" y="327" width="76" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KJGrvaJSuJrRB0GsBnO1-16" value="rat manager" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="93" y="594" width="227" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="KJGrvaJSuJrRB0GsBnO1-32" value="Cache" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="320" y="662" width="94" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
