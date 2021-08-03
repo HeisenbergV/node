@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T07:16:10.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="wa0uHFfTAUTfqSsfa-GA" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-03T09:06:07.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="RRWzw0M0oBnZK5mDWW0_" version="14.8.5" type="github">
   <diagram id="SnPkR0ZWW0URxlmu3m2-" name="第 1 页">
-    <mxGraphModel dx="941" dy="592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1107" dy="696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,10 +99,10 @@
         <mxCell id="dcwNl6AW-Zd0qtKCPymt-54" value="&lt;span style=&quot;font-size: 16px ; color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;6. 播放器为了保证在网络抖动情况下视频播放的流畅性，会以增加延时为代价，增加播放缓存&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="144.5" y="606" width="118" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="dcwNl6AW-Zd0qtKCPymt-55" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 14px&quot;&gt;无解，此处延迟是网络导致，会有5s多延迟&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dcwNl6AW-Zd0qtKCPymt-55" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 14px&quot;&gt;无解，如果此处延迟是网络导致，会有5s多延迟&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="152" y="676" width="109" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="dcwNl6AW-Zd0qtKCPymt-56" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 14px&quot;&gt;优化gop缓存时长，调整播放器参数，用播放体验换取效率&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dcwNl6AW-Zd0qtKCPymt-56" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 14px&quot;&gt;优化gop缓存时长，调整播放器参数，&lt;br&gt;用播放体验换取效率&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="385.5" y="673" width="109" height="94" as="geometry" />
         </mxCell>
       </root>
