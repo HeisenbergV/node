@@ -1,62 +1,155 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T09:38:52.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="ObJwIn8q3LJNpmrCRe3f" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-23T09:09:18.421Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="SO15E-DkaW21E_QBhK_R" version="14.8.5" type="github">
   <diagram id="YjmmECCSt3qVEXS2_SOX" name="第 1 页">
-    <mxGraphModel dx="946" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiGkecqLL-bb-6SbMHBo-1" target="QiGkecqLL-bb-6SbMHBo-2">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QiGkecqLL-bb-6SbMHBo-1" target="QiGkecqLL-bb-6SbMHBo-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-1" value="FRPS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-1" value="FRPS" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-2" value="Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-2" value="Server" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="360" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-4" value="TV" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-4" value="TV" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="190" y="200" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-3" value="FRPC" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QiGkecqLL-bb-6SbMHBo-4">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-3" value="FRPC" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="QiGkecqLL-bb-6SbMHBo-4" vertex="1">
           <mxGeometry x="10" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-5" value="RAT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QiGkecqLL-bb-6SbMHBo-4">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-5" value="RAT" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="QiGkecqLL-bb-6SbMHBo-4" vertex="1">
           <mxGeometry x="110" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QiGkecqLL-bb-6SbMHBo-6" target="QiGkecqLL-bb-6SbMHBo-3">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QiGkecqLL-bb-6SbMHBo-6" target="QiGkecqLL-bb-6SbMHBo-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-6" value="攻击端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-6" value="攻击端" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="200" y="460" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-8" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-8" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="-50" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QiGkecqLL-bb-6SbMHBo-8" target="QiGkecqLL-bb-6SbMHBo-1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QiGkecqLL-bb-6SbMHBo-8" target="QiGkecqLL-bb-6SbMHBo-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="70" as="sourcePoint" />
             <mxPoint x="250" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-12" value="" style="endArrow=classic;html=1;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-12" value="" style="endArrow=classic;html=1;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="317.49" as="sourcePoint" />
             <mxPoint x="380" y="76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="QiGkecqLL-bb-6SbMHBo-3">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="QiGkecqLL-bb-6SbMHBo-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="164.98000000000002" y="160" as="sourcePoint" />
             <mxPoint x="110" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-14" value="" style="endArrow=classic;html=1;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.425;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="QiGkecqLL-bb-6SbMHBo-5">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-14" value="" style="endArrow=classic;html=1;exitX=0.107;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.425;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="QiGkecqLL-bb-6SbMHBo-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="460" as="sourcePoint" />
             <mxPoint x="332.51" y="536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QiGkecqLL-bb-6SbMHBo-15" value="&lt;font size=&quot;4&quot;&gt;电视rat启动流程变动：&lt;br&gt;&lt;br&gt;攻击端工作：&lt;br&gt;1. 攻击的时候把frpc和rat都放到电视里&lt;br&gt;2. test.sh 启动项改为 ./frpc&lt;br&gt;&lt;br&gt;&lt;br&gt;FRPS工作&lt;br&gt;1. frp服务器增加个hook，提供配置增加http请求，当frps收到frpc连接后用http方式通知我们的server，达到frpc上线监听的操作&lt;br&gt;&lt;br&gt;&lt;br&gt;Server工作：&lt;br&gt;1. server提供http接口监听frps http请求&lt;br&gt;2. 收到请求后借助frp使用adb 连接tv 启动rat&lt;br&gt;&lt;br&gt;这样就可以每次重启都能保证rat是用adb启动的，永远是root权限。&lt;br&gt;&lt;br&gt;额外可以做的功能：&lt;br&gt;tv开启ssh，前端利用frps直接 ssh连接电视，这样就可以搞一个真正意义的 cli终端了，而不是之前的那种假的&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QiGkecqLL-bb-6SbMHBo-15" value="&lt;font size=&quot;4&quot;&gt;电视rat启动流程变动：&lt;br&gt;&lt;br&gt;攻击端工作：&lt;br&gt;1. 攻击的时候把frpc和rat都放到电视里&lt;br&gt;2. test.sh 启动项改为 ./frpc&lt;br&gt;&lt;br&gt;&lt;br&gt;FRPS工作&lt;br&gt;1. frp服务器增加个hook，提供配置增加http请求，当frps收到frpc连接后用http方式通知我们的server，达到frpc上线监听的操作&lt;br&gt;&lt;br&gt;&lt;br&gt;Server工作：&lt;br&gt;1. server提供http接口监听frps http请求&lt;br&gt;2. 收到请求后借助frp使用adb 连接tv 启动rat&lt;br&gt;&lt;br&gt;这样就可以每次重启都能保证rat是用adb启动的，永远是root权限。&lt;br&gt;&lt;br&gt;额外可以做的功能：&lt;br&gt;tv开启ssh，前端利用frps直接 ssh连接电视，这样就可以搞一个真正意义的 cli终端了，而不是之前的那种假的&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="-20" width="330" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-2" value="电视攻击端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-3" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="A2EGQjGyIX7hu_U-G0Mh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1090" as="sourcePoint" />
+            <mxPoint x="150" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-10" value="电视" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-11" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="A2EGQjGyIX7hu_U-G0Mh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1090" as="sourcePoint" />
+            <mxPoint x="330" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-12" value="frps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-13" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="A2EGQjGyIX7hu_U-G0Mh-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1090" as="sourcePoint" />
+            <mxPoint x="510" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-16" value="tvserver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-17" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="A2EGQjGyIX7hu_U-G0Mh-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="1090" as="sourcePoint" />
+            <mxPoint x="690" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="850" as="sourcePoint" />
+            <mxPoint x="340" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-19" value="&lt;div&gt;1. 植入 tvrat， frpc和它们的配置;&amp;nbsp;frpc的配置只有：frps的连接地址:10.10.10.123:9000&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="780" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="870" as="sourcePoint" />
+            <mxPoint x="520" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-22" value="&lt;div&gt;2. test.sh 不再启动tvrat，而是frpc&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="830" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-23" value="3. frps连接frps" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="820" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="930" as="sourcePoint" />
+            <mxPoint x="340" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-25" value="4. frps分配一个adb port" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-26" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="980" as="sourcePoint" />
+            <mxPoint x="520" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-27" value="5. 映射adb port" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="930" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1010" as="sourcePoint" />
+            <mxPoint x="700" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-29" value="6. 通知tvserver 一个电视映射的adb port" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="960" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-30" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697.5" y="1050" as="sourcePoint" />
+            <mxPoint x="340" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A2EGQjGyIX7hu_U-G0Mh-31" value="7. adb connect成功" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1000" width="125" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
