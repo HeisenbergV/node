@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T06:56:03.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="BH2nIEmzTHl0VQerkh2w" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T10:39:25.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="4ZGidv4WmsW-eRUL7mjr" version="14.8.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="946" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,50 +47,50 @@
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-9" value="请求文件上传" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="155" y="200.0000000000001" as="sourcePoint" />
-            <mxPoint x="325" y="200.0000000000001" as="targetPoint" />
+            <mxPoint x="155" y="170.0000000000001" as="sourcePoint" />
+            <mxPoint x="325" y="170.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-11" value="发起文件上传命令&#xa;upload: upd或者tcp地址" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="-0.0303" relative="1" as="geometry">
-            <mxPoint x="335" y="230" as="sourcePoint" />
-            <mxPoint x="500" y="230" as="targetPoint" />
+            <mxPoint x="340" y="190" as="sourcePoint" />
+            <mxPoint x="505" y="190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="405" y="230" />
+              <mxPoint x="410" y="190" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-13" value="发送文件元数据&#xa;和文件加密方式（比如rsa）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="254.5000000000001" as="sourcePoint" />
-            <mxPoint x="680" y="255" as="targetPoint" />
+            <mxPoint x="520" y="210.0000000000001" as="sourcePoint" />
+            <mxPoint x="680" y="210.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-14" value="查询文件唯一性" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="695" y="300" as="sourcePoint" />
-            <mxPoint x="695" y="250" as="targetPoint" />
+            <mxPoint x="700" y="320" as="sourcePoint" />
+            <mxPoint x="700" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="745" y="300" />
-              <mxPoint x="735" y="250" />
-              <mxPoint x="695" y="250" />
+              <mxPoint x="750" y="320" />
+              <mxPoint x="740" y="270" />
+              <mxPoint x="700" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-15" value="如果文件已存在，无需上传" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.474;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="685" y="310" as="sourcePoint" />
-            <mxPoint x="515" y="310.05999999999995" as="targetPoint" />
+            <mxPoint x="690" y="300" as="sourcePoint" />
+            <mxPoint x="520" y="300.05999999999995" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="605" y="310" />
+              <mxPoint x="610" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-QkcBiI8JvV_LFgTfrD9-16" value="分段并加密发送文件内容" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="-QkcBiI8JvV_LFgTfrD9-16" value="分段并用AES加密&#xa;发送文件内容" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515" y="400.0000000000001" as="sourcePoint" />
-            <mxPoint x="685" y="400.0000000000001" as="targetPoint" />
+            <mxPoint x="515" y="410.0000000000001" as="sourcePoint" />
+            <mxPoint x="685" y="410.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-17" value="接收并解密&lt;br&gt;到本地" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
@@ -116,15 +116,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-QkcBiI8JvV_LFgTfrD9-20" value="上传事件（成功、失败等）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-QkcBiI8JvV_LFgTfrD9-19">
-          <mxGeometry x="0.5314" y="-1" relative="1" as="geometry">
+        <mxCell id="-QkcBiI8JvV_LFgTfrD9-31" value="上传事件（成功、失败等）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-QkcBiI8JvV_LFgTfrD9-19">
+          <mxGeometry x="0.1886" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-21" value="lj" style="endArrow=classic;html=1;exitX=-0.2;exitY=0.153;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="684" y="280" as="sourcePoint" />
-            <mxPoint x="336" y="281.06000000000006" as="targetPoint" />
+            <mxPoint x="684" y="240" as="sourcePoint" />
+            <mxPoint x="336" y="241.06000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-22" value="收到文件传输消息后，读库获取最新加密方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-QkcBiI8JvV_LFgTfrD9-21">
@@ -132,22 +132,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-QkcBiI8JvV_LFgTfrD9-23" value="grpc（tls认证）同步秘钥" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry x="-0.0303" relative="1" as="geometry">
-            <mxPoint x="340" y="180" as="sourcePoint" />
-            <mxPoint x="505" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="410" y="180" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-24" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="330" as="sourcePoint" />
-            <mxPoint x="340" y="330" as="targetPoint" />
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="340" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="330" />
+              <mxPoint x="600" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -168,6 +158,15 @@
         <mxCell id="-QkcBiI8JvV_LFgTfrD9-30" value="可以上传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-QkcBiI8JvV_LFgTfrD9-29">
           <mxGeometry x="0.2625" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-QkcBiI8JvV_LFgTfrD9-32" value="RSA方式同步AES秘钥" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.474;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="270" as="sourcePoint" />
+            <mxPoint x="520" y="270.05999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="270" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
