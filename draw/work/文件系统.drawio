@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T06:55:30.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="WWH9MUdietl_GBGgyRkd" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T06:56:03.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="BH2nIEmzTHl0VQerkh2w" version="14.8.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-QkcBiI8JvV_LFgTfrD9-23" value="grpc（tls认证）同步加密" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="-QkcBiI8JvV_LFgTfrD9-23" value="grpc（tls认证）同步秘钥" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="-0.0303" relative="1" as="geometry">
             <mxPoint x="340" y="180" as="sourcePoint" />
             <mxPoint x="505" y="180" as="targetPoint" />
